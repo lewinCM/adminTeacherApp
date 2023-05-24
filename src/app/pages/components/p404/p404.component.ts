@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./p404.component.css']
 })
 export class P404Component {
+  year = new Date().getFullYear();
 
 }
