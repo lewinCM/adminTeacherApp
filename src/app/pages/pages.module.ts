@@ -9,6 +9,7 @@ import { ProgressComponent } from './components/progress/progress.component';
 import { Grafica1Component } from './components/grafica1/grafica1.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { P404Component } from './components/p404/p404.component';
+import { PagesComponent } from './pages.component';
 
 
 
@@ -18,6 +19,7 @@ import { P404Component } from './components/p404/p404.component';
     Grafica1Component,
     DashboardComponent,
     P404Component,
+    PagesComponent
 
 
   ],
@@ -26,6 +28,7 @@ import { P404Component } from './components/p404/p404.component';
     PagesRoutingModule,
     RouterModule,
     SharedModule
+
   ]
 })
 export class PagesModule { }
