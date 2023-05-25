@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./grafica1.component.css']
 })
 export class Grafica1Component {
-
+  public labels1: string[] = ['Pan', 'Refresco', 'Tacos'];
+  public data1 = [
+    [10, 15, 40],
+  ];
 }

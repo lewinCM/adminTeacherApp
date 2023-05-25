@@ -7,6 +7,7 @@ import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
 import { FormsModule } from '@angular/forms';
 
+
 import { ProgressComponent } from './components/progress/progress.component';
 import { Grafica1Component } from './components/grafica1/grafica1.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
@@ -29,7 +30,8 @@ import { PagesComponent } from './pages.component';
     RouterModule,
     SharedModule,
     ComponentsModule,
-    FormsModule
+    FormsModule,
+
 
   ]
 })
