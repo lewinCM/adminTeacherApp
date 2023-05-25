@@ -8,13 +8,13 @@ import { P404Component } from './components/p404/p404.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'dashboard',
     component: PagesComponent,
     children: [
-      { path: 'dashboard', component: DashboardComponent },
+      { path: '', component: DashboardComponent },
       { path: 'progress', component: ProgressComponent },
       { path: 'grafica1', component: Grafica1Component },
-      { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+      // { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
     ]
   },
   {

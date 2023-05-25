@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { SharedModule } from '../shared/shared.module';
+import { ComponentsModule } from '../components/components.module';
+import { FormsModule } from '@angular/forms';
 
 import { ProgressComponent } from './components/progress/progress.component';
 import { Grafica1Component } from './components/grafica1/grafica1.component';
@@ -20,14 +22,14 @@ import { PagesComponent } from './pages.component';
     DashboardComponent,
     P404Component,
     PagesComponent
-
-
   ],
   imports: [
     CommonModule,
     PagesRoutingModule,
     RouterModule,
-    SharedModule
+    SharedModule,
+    ComponentsModule,
+    FormsModule
 
   ]
 })
